@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intern3.css">
+    <title>football</title>
+    
+</head>
+<body> 
+  <div id="shape"></div>
+    <header>
+        <div class="search">
+          <form action="/search" method="get">
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="q" placeholder="Search for products">
+            <button type="submit">Search</button>
+        </form>
+        </div> 
+     <div class="login">
+      <h1>
+        LOgin
+      </h1>  
+      <h1 a >Sign up</h1>      
+    </div> 
+        <div class="navi">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="navin">
+      <nav>
+          <ul>
+              <li><a href="#home">Login</a></li>
+              <li><a href="#about">Sign up</a></li>
+             </ul>
+      </nav>
+  </div>
+ 
+    </header>
+    <form>
+        <label for="Electronics">Electronics:</label>
+        <select id="Electronics" placeholder="drop">
+          <option value="mobile">mobile</option>
+          <option value="laptop">laptop</option>
+          <option value="smartwatches">smartwatches</option>
+          <option value="camera">camera</option>
+        </select>
+        <br>
+        <label for="mens">Mens:</label>
+        <select id="mens" name="mens">
+          <option value="Footwear">Footwear</option>
+          <option value="Ethnic">Etnic</option>
+          <option value="Sports wear">Sports wear</option>
+          <option value="Trimmers">Trimmers</option>
+        </select>
+        <br>
+        
+        <label for="Womens">Womens:</label>
+        <select id="Womens" name="Womens">
+          <option value="Footwear">Footwear</option>
+          <option value="Ethnic">Etnic</option>
+          <option value="Sports wear">Sports wear</option>
+          <option value="Beauty">Beauty</option>
+        </select>
+        <br>
+        
+        <label for="Baby & Kids">Baby & Kids:</label>
+        <select id="Baby & Kids" name="Baby & Kids">
+          <option value="Kids Footwear">kid's Footwear</option>
+          <option value="Ethnic">Etnic</option>
+          <option value="Toys">Toys </option>
+          <option value="sports">Sports</option>
+        </select>
+        
+        <label for="more">Sports book & more:</label>
+        <select id="more" name="more">
+          <option value="Sports Footwear">Sports Footwear</option>
+          <option value="Stationary">Stationary</option>
+          <option value="Music">Music </option>
+          <option value="Food essential">Food essential</option>
+        </select>
+        
+        <label for="Home">Home & Furniture:</label>
+        <select id="Home" name="Home">
+          <option value="Kitchen">Kitchen cookware</option>
+          <option value="beds">Beds</option>
+          <option value="Sofa set">Sofa set </option>
+          <option value="dining table">Dining table</option>
+        </select>
+
+      </form>
+      
+      <div class="item">
+      <div class="picture">
+        <img class="shoe 1"src="data:image/jpeg;base64,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" alt="netwrok error :(">
+      </div>
+      <div class="picture">
+        <img class="shoe"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMG_CvuxueM-bs5qbOJrHyptu5fgijQue5ge4SD7JaUAS76fPClTbD1Dc96XVlUGUwvhA&usqp=CAU" alt="netwrok error :(">
+      </div>
+      
+      <div class="picture">
+        <img class="shoe"src="https://rukminim2.flixcart.com/image/128/128/xif0q/shoe/0/7/f/11-749760-001-11-nike-black-anthracite-neutral-grey-original-imagxaxhy6zg9gwx.jpeg?q=70&crop=false" alt="netwrok error :(" style="width: 1000px; height: 180px;">
+      </div>
+      </div>
+      <div class="content">
+        <h1><span style="color: grey;"><b><i>Nike</i></b></span>  </h1> 
+        <br>
+        <h2>
+            Air Max Command Running Shoes For Men  (Black)  
+        </h2>
+        <br>
+        <p> <span style="color: green;"><b>Special price </b></span></p>
+        <br>
+        <p>₹7,016  <del>₹8,995</del> <span style="color: rgb(72, 199, 40);"><b>22% off </b></span>
+        </p>
+        <br>
+       <!-- <div class="size">
+        <p>
+            <label for="size">size-UK/India </label>
+            <input type="button" value="5"> 
+            <input type="button" value="6"> 
+            <input type="button" value="7"> 
+            <input type="button" value="8"> 
+            <input type="button" value="9"> 
+        </p>
+      </div> -->
+      <div class="size">
+        <button>5</button>
+        <button>6</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+    </div>
+    
+        <br>
+        <p> <span style="color: grey;"><b>Seller </b></span> : <span style="color: blue;"><b>
+            NikeIndiaPvtLtd </b></span></p>
+      </div>
+      <br><br>
+    <div class="add">
+        <button onclick="addToCart(1)" >Buy now</button>
+        
+        <button onclick="addToCart(1)" >Add to Cart</button>
+    </div>
+    <section id="other">
+      <div class="prod">
+      <big><h1> <b><i><u>  Products you may like</u></b></i> </h1></big>
+    </div>
+      <hr>
+      <hr>
+  
+      <div class="product">
+          <img class="shoe" src="https://rukminim2.flixcart.com/image/2000/2000/xif0q/shoe/w/c/k/-original-imagx9kxugzgnjza.jpeg?q=70&crop=false" alt="error :(">
+          <h2>Nike Air Max Command</h2>
+          <p class="price">₹7,016 <del>₹8,995</del> <span style="color: rgb(72, 199, 40);"><b>22% off </b></span></p>
+          <bold><big> <button onclick="addToCart(1)">Add to Cart</button></big></bold> 
+      </div>
+      <div class="product">
+          <img class="shoe" src="https://rukminim2.flixcart.com/image/2000/2000/xif0q/shoe/q/e/q/-original-imagxe2gmvg3xzqz.jpeg?q=70&crop=false" alt="no network :(">
+          <h2>Nike Air Max Sneaker</h2>
+          <p class="price">₹7,995 <del>₹8,995</del> <span style="color: rgb(72, 199, 40);"><b>22% off </b></span></p>
+          <bold><big>  <button onclick="addToCart(2)">Add to Cart</button></big></bold>
+      </div>
+      <div class="product">
+          <img class="shoe" src="https://rukminim2.flixcart.com/image/400/400/xif0q/shoe/i/l/z/-original-imagxe2h4dwqnfvj.jpeg?q=70" alt="no network :(">
+          <h2>Nike Air Max Command</h2>
+          <p class="price">₹7,016 <del>₹8,995</del> <span style="color: rgb(72, 199, 40);"><b>22% off </b></span></p>
+          <!-- Removed the extra button tag and corrected the onclick function -->
+          <button onclick="addToCart(3)">Add to Cart</button>
+      </div>
+      <div class="product">
+          <img class="shoe" src="https://rukminim2.flixcart.com/image/2000/2000/xif0q/shoe/i/y/s/-original-imagxe2gkbvseg3h.jpeg?q=70&crop=false" alt="no network :(">
+          <h2>Nike Air span 2</h2>
+          <p class="price">₹7,172  <del>₹9,995</del> <span style="color: rgb(72, 199, 40);"><b>22% off </b></span></p>
+          <!-- Corrected the onclick function -->
+          <button onclick="addToCart(4)">Add to Cart</button>
+      </div>
+  </section>
+  <footer>
+    <ol>
+        <li>copyright &copy; ankitbosssystem</li>
+        <li>contact developer <a href = "#">7464893602</a></li>  <hr>  <li>visit our official website <a href = "#">www.nikeindia.com</a></li>    
+    </ol>
+  </div>        
+</footer>
+  <aside id="shopping-cart">
+    <h1 style="color: white;"><b><i>Shopping Cart</i></b></h1>
+    <div class="cart">
+        <div class="car">🚗</div>
+    </div>
+    <big><h2><b>Shopping Cart</b></h2></big>
+    
+    <ul id="cart-items">
+    </ul>
+    <div class="fire">
+    <h1>
+        <p>Total: <span id="total-price">0.00</span> <span id="currency">USD</span></p>
+    </h1>
+    <big><button onclick="buyProduct()">Buy</button></big>
+    <big><button onclick="toggleCurrency()">Toggle Currency</button></big>
+    </div>
+         
+</body>
+</html>
